@@ -5,14 +5,16 @@ function Header() {
     return (
         <div className="header">
             <div className="header__left">
-                <img src="	https://www.lenzgig.com/static/static/img/header-logo.png" alt="" />
-                <h3>Blog</h3>
-                <h3>News</h3>
-                <h3>Become a Creator</h3>
+                <a href="https://www.lenzgig.com/news"> <img src="	https://www.lenzgig.com/static/static/img/header-logo.png" alt="" /></a>
+                <div className="text">
+                   <a href="https://www.lenzgig.com/blogs"><h3>Blog</h3></a>
+                    <a href= "https://www.lenzgig.com/news"><h3 style={{marginLeft:"20px"}}>News</h3></a> 
+                    <a href="https://www.lenzgig.com/creators"><h3 style={{marginLeft:"20px"}}>Become a Creator</h3></a>
+                </div>
             </div>
             <div className="button">
-                <Button className="button1">Post a Gig</Button>
-                <Button className="button2">Login</Button>
+                <a href="https://www.lenzgig.com/signup?referralPageUrl=/post-gig" className="button1">Post a Gig</a>
+                <a href="https://www.lenzgig.com/signin" className="button2">Login</a>
             </div>
         </div>
     )
