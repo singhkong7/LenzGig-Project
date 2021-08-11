@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Header.scss";
-import { Button } from 'react-bootstrap';
 function Header() {
     return (
         <div className="header">
